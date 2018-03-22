@@ -1,2 +1,27 @@
 .rojo{color:red}
 .azul{color:blue}
+h1, p {
+    color: red;
+    font-weight: bold;
+    text-decoration: underline;
+    max-width: 500px;
+}
+ul li {
+    color: blue
+}
+ul li a {
+    color: green
+}
+
+a:hover {
+    color: pink;
+    font-size: 50px;
+}
+
+p:first-of-type {
+    color: green;
+}
+
+a:not(.destacado) {
+    font-size: 40px
+}
