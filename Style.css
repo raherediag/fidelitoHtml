@@ -1,27 +1,74 @@
-.rojo{color:red}
-.azul{color:blue}
-h1, p {
-    color: red;
-    font-weight: bold;
-    text-decoration: underline;
-    max-width: 500px;
-}
-ul li {
-    color: blue
-}
-ul li a {
-    color: green
+.container{
+    width: 500px;
+/*    position: absolute;
+    bottom: 0px;
+    top: 0px;*/
+    min-height: 600px;
+    background: #cca;
+    margin: 0 auto
 }
 
-a:hover {
-    color: pink;
-    font-size: 50px;
+.name{
+    width: 350px;
+    height: 50px;
+    background: brown;
 }
 
-p:first-of-type {
-    color: green;
+.name {
+    width: 350px;
+    line-height: 50px;
+    font-size: 14px;
+    text-align: center;
 }
 
-a:not(.destacado) {
-    font-size: 40px
+.personal-data{
+    width: 350px;
+    height: 110px;
+    font-size: 14px;
+    background: rgb(42, 165, 69);
+}
+
+.photo{
+    width: 150px;
+    height: 177px;
+    background: blue;
+}
+
+.photo{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    /*left: 0px;*/
+    max-height: 160px;
+    max-width: 150px;
+}
+
+.img-photo{
+    max-height: 150px;
+    max-width: 150px;
+}
+
+.Informacion-Personal{
+    display: box;
+    color: black;
+    max-height: 300px;
+    
+    overflow: auto;
+}
+
+h1, h2{
+    padding: 0px;
+    margin: 0px;
+}
+
+.contacto{
+    width: 500px;
+    height: 200px;
+    background: pink;
+}
+
+.contacto{
+    position: absolute;
+    bottom: 0px;
+    display: box;
 }
