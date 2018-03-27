@@ -1,0 +1,29 @@
+p, h1 {
+    color: red;
+    font-weight: bold;
+    text-decoration: underline;
+}
+ul li {
+    color: blue;
+}
+
+ul li a {
+    color: green;
+}
+
+/*SEUDOCLASES*/
+/*hover (seudoclase de estado) cuando el raton pasa por encima cambia el estado*/
+a:hover {
+    color: pink;
+    font-size: 50px;
+}
+
+/*first-of-type (seudoclase de posicion) primer elemento*/
+p:first-of-type {
+    color: green;
+}
+
+/*seudoclase de relacion*/
+a:not(.destacado){
+    font-size: 50px;
+}
