@@ -1,0 +1,25 @@
+div {
+    width: 500px;
+    background: #ccc;
+    padding: 5px;
+    overflow: auto;
+}
+
+img {
+    float: left;
+    width: 100%;
+    height: auto;
+}
+
+.avatar {
+    float: left;
+    width: 31%;
+    border: 1px solid red;
+}
+
+.contenido {
+    float: right;
+    width: 62%;
+    border: 1px solid blue;
+    background: transparent;
+}

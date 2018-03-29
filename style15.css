@@ -1,0 +1,11 @@
+div {
+    width: 350px;
+    background: #ccc;
+    padding: 5px;
+}
+
+img {
+    width: 35%;
+    height: auto;
+    float: left;
+}
