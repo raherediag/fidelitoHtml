@@ -1,0 +1,11 @@
+.color {
+    color: red;
+}
+
+#color {
+    color: blue;
+}
+
+h1 {
+    color: pink !important;
+}
