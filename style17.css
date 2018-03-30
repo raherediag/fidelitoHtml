@@ -1,0 +1,11 @@
+body {
+    color:red;
+}
+
+P {
+    border: 1px solid blue;
+}
+
+span {
+    border: inherit;
+}
