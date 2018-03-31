@@ -1,0 +1,12 @@
+div {
+    width: 300px;
+    height: 100px;
+    margin: 0 auto;
+    background: gray;
+    padding: 8px;
+    overflow: auto;
+}
+
+p {
+    margin: 0;
+}
