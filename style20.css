@@ -1,0 +1,20 @@
+body {
+    background: gray;
+}
+
+.uno {
+    width: 250px;
+    height: 150px;
+    background: blue;
+    position: relative;
+   /* top: -50px;*/
+}
+
+.dos {
+    width: 250px;
+    height: 100px;
+    background: green;
+/*    position: static;*/
+    position: absolute;
+    top: 50px;
+}
