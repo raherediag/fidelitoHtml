@@ -1,0 +1,18 @@
+.capa1 {
+    width: 350px;
+    height: 150px;
+    background: red;
+    position: relative;
+    z-index: 990;
+    /*si eliminamos z-index, capa2 iria 
+    arriba de capa1 porque capa2 se
+    definio despuies de capa1*/
+}
+
+.capa2 {
+    width: 350px;
+    height: 150px;
+    background: blue;
+    position: relative;
+    top: -50px;
+}
