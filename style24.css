@@ -1,0 +1,14 @@
+div {
+    width: 250px;
+    height: 250px;
+}
+
+.uno {
+    background: blue;
+    margin-bottom: 50px;
+}
+
+.dos {
+    background: red;
+    margin-top: 20px;
+}
