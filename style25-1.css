@@ -1,0 +1,14 @@
+/* esto es un ejemplo con imagenes inline*/
+.cortado {
+    width: 300px;
+    height: 500px;
+    overflow: hidden;
+}
+
+.cortado img {
+    height: 100px;
+    min-width: 100px;
+    left: 50%;
+    position: relative;
+    transform: translateX(-50%);
+}

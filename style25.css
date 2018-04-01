@@ -1,0 +1,17 @@
+#cabecera {
+    width: 40%;
+    height: 100px;
+    background: #ccc;
+    /* utilizando la imagen de fondo
+    background-image: url(https://placeimg.com/640/480/animals)
+    background-size: 30%;
+    background-repeat: no-repeat;
+    background-position: left center;
+    */
+}
+
+#cabecera img {
+    /* esto se utiliza  cuando conocemos el tamañodelaimagen*/
+       width: auto;
+       height: 100%;
+}
