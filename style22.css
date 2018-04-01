@@ -1,0 +1,20 @@
+#contenedor {
+    width: 30%;
+    height: 300px;
+    display: block;
+    background: #ccc;
+}
+
+#contenedor div {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin: 10px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 100px;
+    color: white;
+    display: inline-block;
+    /*display: block;*/
+    /*display: inline;*/
+}
