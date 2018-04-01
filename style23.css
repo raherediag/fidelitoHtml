@@ -1,0 +1,17 @@
+#carrusel {
+    height: 200px;
+    background-color: blue;
+    margin-bottom: 20px;
+}
+
+#from-twitter {
+    height: 100px;
+    background-color: gray;
+    margin-bottom: 20px;
+}
+
+#ultimas-noticias {
+    height: 150px;
+    background-color: black;
+    margin-bottom: 20px;
+}
