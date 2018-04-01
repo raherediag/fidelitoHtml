@@ -1,0 +1,15 @@
+/*
+entre los parentesis aceota:
+entero
+keywords
+an + b
+*/
+
+/*p:nth-child(3){
+p:nth-child(even){
+p:nth-child(3n + 8){
+con nth-last-child se conuebza 
+desde abajo*/
+p:nth-child(-n + 8) {
+    background-color: red;
+}
