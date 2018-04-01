@@ -1,0 +1,33 @@
+a {
+    display: block;
+    margin-bottom: 20px;
+}
+
+span {
+    display:block;
+    margin-bottom: 20px;
+}
+
+a:active {
+    color: blue;
+}
+
+a:visited {
+    color: red;
+}
+
+/*para observar elefecto anterior hat que quitar este*/
+a:hover {
+    color: green;
+    font-weight: bold;
+}
+
+input:focus {
+    background-color: yellow;
+    padding: 5px;
+}
+
+div :first-of-type{
+    color: blue;
+}
+
