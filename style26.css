@@ -1,0 +1,11 @@
+#sprite {
+    background-image: url(http://librosweb.es/img/css_avanzado/f0113.png);
+    width: 21px;
+    height: 21px;
+    border: 1px solid gray;
+    /*primera imagen*/
+    background-position: -10px -11px;
+    /*segunda imger
+    background-position: -41px -11px;
+    */
+}
