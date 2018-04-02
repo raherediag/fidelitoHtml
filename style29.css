@@ -1,0 +1,20 @@
+p:first-line {
+    color: red;
+}
+
+p:first-letter {
+    color: green;
+    font-size: 50px;
+}
+
+h1:before {
+    content: 'Hola';
+    margin-right: 10px;
+    color: red;
+}
+
+h1:after {
+    content: 'Hola';
+    margin-left: 10px;
+    color: red; 
+}
