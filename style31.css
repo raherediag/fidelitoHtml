@@ -1,0 +1,117 @@
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+ background-image: url(https://placeimg.com/1000/800/nature);
+ background-size: cover;
+ background-repeat: no-repeat;
+ background-position: center;
+ /*esta propiedad es para centar el contenedor*/
+ display: table;
+ margin: 0;
+ font-family: sans-serif;
+}
+
+ul {
+    margin:  0;
+    padding: 0;
+    list-style: none;
+}
+
+#contenedor {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.contenido {
+    width: 800px;
+    min-height: 400px;
+    background-color: rgba(255, 255, 255, 0.8);
+    margin: 0 auto;
+    padding: 20px;
+    text-align: left;
+}
+
+.columna-izquierda {
+    width: 25%;
+    float: left;
+}
+
+/*  */
+    .columna-izquierda > img {
+        max-width: 100%;
+        height: auto;
+    }
+
+        .columna-izquierda ul li {
+            margin: 10px 0;
+        }
+
+            .columna-izquierda ul li div {
+                width: 24px;
+                height: 24px;
+                display: inline-block;
+                margin-right: 5px;
+                vertical-align: middle;
+                background-image: url(social_network_sprite.png);
+
+            }
+
+            .columna-izquierda ul li:first-of-type div {
+                background-position: 0 50px;
+            }
+
+            .columna-izquierda ul li:nth-child(2) div {
+                background-position: -194px 50px;
+            }
+
+            .columna-izquierda ul li:last-child div {
+                background-position: -97px 50px;
+            }
+
+.columna-derecha {
+    width: 70%;
+    float: right;
+}
+
+    .columna-derecha h1 {
+        margin: 0 0 5px 0;
+    }
+
+    .columna-derecha h2 {
+        margin-top: 0px;
+    }
+
+#proyectos h3 {
+    text-align: center;
+}
+
+#proyectos {
+    min-height: 100px;
+}
+
+    #proyectos ul li {
+        display: inline-block;
+        width: 156px;
+        height: 156px;
+        margin-right: 5px;
+    }
+
+    #proyectos ul li:last-of-type {
+        margin-right: 0;
+    }
+
+/* clase para marcar donde estan los elementos
+solo se usara para el desarrollo
+(ver div colomna-izquierda y div colomna-derecha)*/
+
+.brojo {
+    border: 1px dashed red;
+}
+
+.clearfix {
+    clear: both;
+}
