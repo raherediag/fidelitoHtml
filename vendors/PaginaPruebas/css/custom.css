@@ -1,0 +1,10 @@
+/* Add here all your CSS customizations */
+
+/*aqui se cambio width: auto; por 50%; y se elimino left: 15px; para lograr que el dropdown-mega se redujera al 50%;
+y se moviera hacia la izquierda (linea 586 de theme.css)*/
+#header .header-nav-main nav > ul > li.dropdown-mega > .dropdown-menu {
+    border-radius: 4px;
+    left: auto; 
+    right: 15px;
+    width: 50%;
+}
