@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <style>
+        .slider{
+            background: url("images/background10.jpg");
+            height: 100vh;
+            background-size: cover;
+            background-position: center;
+        }
+        @media (min-width: 320px) {
+          .card-deck {
+            -webkit-box-orient: horizontal;
+            -webkit-box-direction: normal;
+            -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+            margin-right: -15px;
+            margin-left: -15px;
+          }
+        } 
+    </style>
+
+    <title>CARD</title>
+  </head>
+  <body>
+    
+    <section class="container-fluid slider d-flex justify-content-center align-items-center">
+      <h1 disply 4>BOOTSTRAP 4!</h1>
+    </section>
+
+    <!--Comienza menu de navegacion-->
+
+    <nav class="navbar navbar-dark bg-dark navbar-expand-lg sticky-top">
+
+        <a class="navbar-brand" href="video9.html">
+            <img src="images/bootstrap.png" width="30" height="30" class="d-inline-block align-top" alt="Logo Bootstrap">
+            Bootstrap
+        </a>
+
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+ 
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01"> 
+            <div class="navbar-nav mr-auto ml-auto text-center">
+                <a class="nav-item nav-link" href="#">Home</a>
+                <a class="nav-item nav-link" href="#">Features</a>
+                <a class="nav-item nav-link" href="#">Pricing</a>
+                <a class="nav-item nav-link" href="#">Disabled</a>
+            </div>
+            <div class="d-flex flex-row justify-content-center">
+                <a href="#" class="btn btn-outline-primary mr-2">F</a>
+                <a href="#" class="btn btn-outline-danger">Y</a>
+            </div>
+        </div>   
+    </nav>
+    <!--Termina menu de navegacion-->
+
+    <!--Card-->
+    <section class="container mt-5 pt-5">
+    <div class="card-deck">
+        <div class="card">
+          <img class="card-img-top" src="images/images800x600.png" width="259" height="194" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="images/images640x346.jpg" width="259" height="194" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="images/images999x799.jpg" width="259" height="194" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+      </div>
+    </section>
+      <!--Fin Card-->
+      
+      <!--comienza jumbotron-->
+      
+      <div class="jumbotron mt-5 rounded-0">
+        <div class="container">
+          <h1 class="display-4">Hello, world!</h1>
+          <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+          <hr class="my-4">
+          <div class="d-flex justify-content-between align-items-center">
+            <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+            <p class="lead">
+              <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+            </p>
+          </div>
+        </div>  
+      </div>
+
+      <!--Fin jupbotron-->
+
+      <!--Formulario-->
+
+    <section class="container">
+
+        <h3 class="text-uppercase text-center">formulario de contacto</h3>
+        <p class="lead text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus officiis vel mollitia temporibus reiciendis, velit excepturi molestias aliquam quia aperiam, iusto commodi ratione dolorem laborum consequuntur eum deleniti nam voluptatem.</p>
+
+            <form action="" class=" form-inline d-flex justify-content-center flex-column flex-md-row">
+                <div class="form-group my-2">
+                    <label for="" class="mx-2">Nombre:</label>
+                    <input type="text" placeholder="Escribe tu nombre" class="form-control">
+                </div>
+
+                <div class="form-group my-2">
+                    <label for="" class="mx-2">Apellidos:</label>
+                    <input type="text" placeholder="Escribe tus apellidos" class="form-control">
+                </div>
+<!--
+                <div class="form-group row">
+                    <label for="" class="col-2 col-form-label">E-mail</label>
+                    <input type="email" placeholder="Escribe tu e-mail" class="form-control col-10">
+                </div>
+--> 
+                <div class="form-group mx-2 my-2">
+                    <button class="btn btn-danger" type="submit">Enviar</button>
+                </div>
+
+            </form>
+
+    </section>
+
+      <!--Fin Formulario-->
+
+    <section class="container">
+        <p class="mt-5 text-center text-upercase font-italic font-weight-bold">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est, minus?</p>
+        <p class="text-danger">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident debitis impedit distinctio quia, sit, harum assumenda aperiam reprehenderit sapiente adipisci aliquid quos rerum ab minima deserunt exercitationem sunt vitae quo error nulla ipsam a consequatur! Earum, natus incidunt! Laborum, nemo reprehenderit voluptatem ab a voluptates atque cum consequatur. Perspiciatis asperiores harum, assumenda aut quam vel unde eaque nam veniam quo quaerat necessitatibus adipisci porro, impedit et cum alias saepe totam, id ab voluptate? Soluta dolor adipisci explicabo molestiae, rem obcaecati voluptas laboriosam iure blanditiis nam. Consequatur cumque similique corrupti quasi ad minus cupiditate quidem voluptatum corporis, sint, nulla natus. Alias!</p>
+          <p class="bg-primary text-white p-4 text-justify w-25 float-left mr-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident debitis impedit distinctio quia, sit, harum assumenda aperiam reprehenderit sapiente adipisci aliquid quos rerum ab minima deserunt exercitationem sunt vitae quo error nulla ipsam a consequatur! Earum, natus incidunt! Laborum, nemo reprehenderit voluptatem ab a voluptates atque cum consequatur. Perspiciatis asperiores harum, assumenda aut quam vel unde eaque nam veniam quo quaerat necessitatibus adipisci porro, impedit et cum alias saepe totam, id ab voluptate? Soluta dolor adipisci explicabo molestiae, rem obcaecati voluptas laboriosam iure blanditiis nam. Consequatur cumque similique corrupti quasi ad minus cupiditate quidem voluptatum corporis, sint, nulla natus. Alias!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident debitis impedit distinctio quia, sit, harum assumenda aperiam reprehenderit sapiente adipisci aliquid quos rerum ab minima deserunt exercitationem sunt vitae quo error nulla ipsam a consequatur! Earum, natus incidunt! Laborum, nemo reprehenderit voluptatem ab a voluptates atque cum consequatur. Perspiciatis asperiores harum, assumenda aut quam vel unde eaque nam veniam quo quaerat necessitatibus adipisci porro, impedit et cum alias saepe totam, id ab voluptate? Soluta dolor adipisci explicabo molestiae, rem obcaecati voluptas laboriosam iure blanditiis nam. Consequatur cumque similique corrupti quasi ad minus cupiditate quidem voluptatum corporis, sint, nulla natus. Alias!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident debitis impedit distinctio quia, sit, harum assumenda aperiam reprehenderit sapiente adipisci aliquid quos rerum ab minima deserunt exercitationem sunt vitae quo error nulla ipsam a consequatur! Earum, natus incidunt! Laborum, nemo reprehenderit voluptatem ab a voluptates atque cum consequatur. Perspiciatis asperiores harum, assumenda aut quam vel unde eaque nam veniam quo quaerat necessitatibus adipisci porro, impedit et cum alias saepe totam, id ab voluptate? Soluta dolor adipisci explicabo molestiae, rem obcaecati voluptas laboriosam iure blanditiis nam. Consequatur cumque similique corrupti quasi ad minus cupiditate quidem voluptatum corporis, sint, nulla natus. Alias!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident debitis impedit distinctio quia, sit, harum assumenda aperiam reprehenderit sapiente adipisci aliquid quos rerum ab minima deserunt exercitationem sunt vitae quo error nulla ipsam a consequatur! Earum, natus incidunt! Laborum, nemo reprehenderit voluptatem ab a voluptates atque cum consequatur. Perspiciatis asperiores harum, assumenda aut quam vel unde eaque nam veniam quo quaerat necessitatibus adipisci porro, impedit et cum alias saepe totam, id ab voluptate? Soluta dolor adipisci explicabo molestiae, rem obcaecati voluptas laboriosam iure blanditiis nam. Consequatur cumque similique corrupti quasi ad minus cupiditate quidem voluptatum corporis, sint, nulla natus. Alias!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident debitis impedit distinctio quia, sit, harum assumenda aperiam reprehenderit sapiente adipisci aliquid quos rerum ab minima deserunt exercitationem sunt vitae quo error nulla ipsam a consequatur! Earum, natus incidunt! Laborum, nemo reprehenderit voluptatem ab a voluptates atque cum consequatur. Perspiciatis asperiores harum, assumenda aut quam vel unde eaque nam veniam quo quaerat necessitatibus adipisci porro, impedit et cum alias saepe totam, id ab voluptate? Soluta dolor adipisci explicabo molestiae, rem obcaecati voluptas laboriosam iure blanditiis nam. Consequatur cumque similique corrupti quasi ad minus cupiditate quidem voluptatum corporis, sint, nulla natus. Alias!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident debitis impedit distinctio quia, sit, harum assumenda aperiam reprehenderit sapiente adipisci aliquid quos rerum ab minima deserunt exercitationem sunt vitae quo error nulla ipsam a consequatur! Earum, natus incidunt! Laborum, nemo reprehenderit voluptatem ab a voluptates atque cum consequatur. Perspiciatis asperiores harum, assumenda aut quam vel unde eaque nam veniam quo quaerat necessitatibus adipisci porro, impedit et cum alias saepe totam, id ab voluptate? Soluta dolor adipisci explicabo molestiae, rem obcaecati voluptas laboriosam iure blanditiis nam. Consequatur cumque similique corrupti quasi ad minus cupiditate quidem voluptatum corporis, sint, nulla natus. Alias!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident debitis impedit distinctio quia, sit, harum assumenda aperiam reprehenderit sapiente adipisci aliquid quos rerum ab minima deserunt exercitationem sunt vitae quo error nulla ipsam a consequatur! Earum, natus incidunt! Laborum, nemo reprehenderit voluptatem ab a voluptates atque cum consequatur. Perspiciatis asperiores harum, assumenda aut quam vel unde eaque nam veniam quo quaerat necessitatibus adipisci porro, impedit et cum alias saepe totam, id ab voluptate? Soluta dolor adipisci explicabo molestiae, rem obcaecati voluptas laboriosam iure blanditiis nam. Consequatur cumque similique corrupti quasi ad minus cupiditate quidem voluptatum corporis, sint, nulla natus. Alias!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident debitis impedit distinctio quia, sit, harum assumenda aperiam reprehenderit sapiente adipisci aliquid quos rerum ab minima deserunt exercitationem sunt vitae quo error nulla ipsam a consequatur! Earum, natus incidunt! Laborum, nemo reprehenderit voluptatem ab a voluptates atque cum consequatur. Perspiciatis asperiores harum, assumenda aut quam vel unde eaque nam veniam quo quaerat necessitatibus adipisci porro, impedit et cum alias saepe totam, id ab voluptate? Soluta dolor adipisci explicabo molestiae, rem obcaecati voluptas laboriosam iure blanditiis nam. Consequatur cumque similique corrupti quasi ad minus cupiditate quidem voluptatum corporis, sint, nulla natus. Alias!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident debitis impedit distinctio quia, sit, harum assumenda aperiam reprehenderit sapiente adipisci aliquid quos rerum ab minima deserunt exercitationem sunt vitae quo error nulla ipsam a consequatur! Earum, natus incidunt! Laborum, nemo reprehenderit voluptatem ab a voluptates atque cum consequatur. Perspiciatis asperiores harum, assumenda aut quam vel unde eaque nam veniam quo quaerat necessitatibus adipisci porro, impedit et cum alias saepe totam, id ab voluptate? Soluta dolor adipisci explicabo molestiae, rem obcaecati voluptas laboriosam iure blanditiis nam. Consequatur cumque similique corrupti quasi ad minus cupiditate quidem voluptatum corporis, sint, nulla natus. Alias!</p>
+    </section>
+-->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.js"></script>
+  </body>
+</html>
